@@ -1,0 +1,13 @@
+# Virtual environments (rebuildable from pdm.lock)
+.venv/
+**/.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# pdm local interpreter pointer (machine-specific)
+.pdm-python
+
+# OS noise
+.DS_Store
