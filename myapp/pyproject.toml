@@ -18,3 +18,7 @@ distribution = false
 dev = [
     "pytest>=8.4.2",
 ]
+
+[tool.pdm.scripts]
+start = "python app.py"
+test = "pytest"
